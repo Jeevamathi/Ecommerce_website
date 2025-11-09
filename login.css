@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.outer{
+    height: 100vh;
+    display: flex;
+}
+
+.outer > .left{
+    flex-basis: 60%;
+    background-image: url("https://www.ftxinfotech.com/wp-content/uploads/2020/06/hire-dotnet-image.png");
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+}
+
+.outer > .right{
+    flex-basis: 40%;
+}
+
+.right > form{
+    height: 100%;
+    padding: 0% 25%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+form > input{
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: rgb(183, 183, 251);
+    border: none;
+}
+
+form > input::placeholder{
+    text-transform: capitalize;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+}
+
+form > input:focus{
+    outline: none;
+    border: 2px solid rgb(5, 5, 133);
+}
+
+form > button{
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background-color: rgb(72, 72, 244);
+    border: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+}
+
+form > button:hover{
+    box-shadow: 0px 4px 5px gray;
+}
+
+form > button:active{
+    background-color: rgb(183, 183, 251);
+}
+
+form > h1{
+    text-transform: capitalize;
+    text-shadow: 0px 2px 2px gray;
+    letter-spacing: 1.2px;
+}
+
+form > h3{
+    color: rgb(107, 105, 105);
+    letter-spacing: 1.2px;
+}
+
+form > h3::first-letter{
+    text-transform: uppercase;
+}
+
+form > .footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.footer > p{
+    color: rgb(107, 105, 105);
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.footer > p::first-letter{
+    text-transform: uppercase;
+}
+
+.footer > a{
+    color: rgb(72, 72, 244);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer > a:visited{
+    color: rgb(72, 72, 244);
+    text-decoration: none;
+    font-weight: bold;
+}

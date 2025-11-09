@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 100px;
+    background-color: blanchedalmond;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav > div {
+    display: flex;
+    gap: 50px;
+}
+
+nav > input{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+}
+
+nav > input::placeholder{
+    font-size: 16px;
+    color: gray;
+}
+
+div > button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+main{
+    height: 180vh;
+    background-color: darksalmon;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.card{
+    height: 200px;
+    width: 300px;
+    background-color: whitesmoke;
+    border:none;
+    box-shadow: 0px 3px 6px black;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px;
+}
+
+img{
+    height: 50px;
+}
